@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="pagina_inicial.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="pagina_inicial.js" defer></script>
+</head>
+<body>
+    <div id="loading">
+        <h1>HostTravel</h1>
+        <div class="spinner"></div>
+    </div>
+    <header>
+        <div class="logo">
+            <a href="pagina_inicial.html">HostTravel</a>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Planejamento</a></li>
+                    <li><a href="#">Reservas</a></li>
+                    <li><a href="#">Guias</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="configuracoes">
+            <label for="idioma">Idioma:</label>
+            <select id="idioma">
+                <option value="pt-br">Português (BR)</option>
+                <option value="en-us">Inglês (US)</option>
+                <option value="es-es">Espanhol (ES)</option>
+            </select>
+
+            <label for="moeda">Moeda:</label>
+            <select id="moeda">
+                <option value="brl">R$ - Real Brasileiro</option>
+                <option value="usd">$ - Dólar Americano</option>
+                <option value="eur">£ - Euro</option>
+            </select>
+        </div>
+
+        <span id="horario"></span>
+
+        <div class="botoes-autenticacao">
+            <button id="login">
+                <img src="imagens/perfil.png" alt="Foto de perfil" class="foto-perfil">
+                Fazer login
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="descricao">
+                <h2>Seu assistente de viagem perfeito</h2>
+                <p>Planeje sua viagem de negócios ou férias de maneira intuitiva! Nosso site ajuda na organização de roteiros, reservas de bilhetes, requisitos de visto e muito mais.</p>
+            </div>
+            <div class="carrossel">
+                <img src="imagens/paris.webp" alt="Paris">
+                <img src="imagens/tokyo.webp" alt="Tokyo">
+                <img src="imagens/nova york.jpeg" alt="Nova York">
+            </div>
+        </div>
+        <div class="conteudo">
+            <div class="lado-esquerdo">
+                <div class="depoimentos">
+                    <h3>O que nossos viajantes dizem</h3>
+                    <div class="depoimento">
+                        <p>"HostTravel tornou meu planejamento de viagem muito mais fácil! Recomendo.</p>
+                        <span>- Ana Julia</span>
+                    </div>
+                    <div class="depoimento">
+                        <p>"Com os guias personalizados, descobri lugares incríveis que nem sabia que existiam!"</p>
+                        <span>- João Santos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lado-direito">
+                <div class="destinos">
+                    <h3>Destinos Populares</h3>
+                    <div class="destino">
+                        <img src="imagens/roma.jpg" alt="Roma">
+                        <h4>Roma</h4>
+                        <p>História e gastronomia imperdíveis!</p>
+                    </div>
+                    <div class="destino">
+                        <img src="imagens/maldivas.jpg" alt="Maldivas">
+                        <h4>Maldivas</h4>
+                        <p>Paraíso tropical com praias paradisíacas.</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="dicas">
+            <h3>Dicas Essenciais para sua Viagem</h3>
+            <ul>
+                <li>- Verifique a validade do seu passaporte com antecedência.</li>
+                <li>- Tenha um seguro viagem para evitar imprevistos.</li>
+                <li>- Baixe mapas offline do seu destino para facilitar a locomoção.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HostTravel - Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com/HostTravel" target="_blank">
+                <img src="imagens/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/HostTravel" target="_blank">
+                <img src="imagens/instagram.webp" alt="Instagram">
+            </a>
+            <a href="https://www.twitter.com/HostTravel" target="_blank">
+                <img src="imagens/twitter.webp" alt="Twitter">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
