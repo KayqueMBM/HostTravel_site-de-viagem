@@ -33,14 +33,28 @@ header{
 nav ul{
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 nav ul li{
-    display: inline;
-    margin-right: 20px;
+    position: relative;
 }
 nav ul li a{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
     color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    background-color: #0056b3;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .container{
     display: flex;
@@ -100,7 +114,10 @@ button{
     transition: background-color 0.3s;
 }
 button:hover{
-    filter: brightness(0.8);
+    background-color: #0056b3;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 #loading{
     position: fixed;
@@ -253,29 +270,6 @@ button:hover{
     border-radius: 50%;
     border: 2px solid #ddd;
 }
-.configuracoes{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.configuracoes label{
-    font-weight: bold;
-}
-.configuracoes select{
-    padding: 5px;
-    font-size: 14px;
-    border-radius: 8px;
-    border: 1.5px solid #007;
-    background-color: #f8f9fa;
-    color: #333;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.configuracoes select:hover{
-    background-color: #007bff;
-    color: #fff;
-    border-color: #0056b3;
-}
 .botoes-autenticao{
     display: flex;
     gap: 10px;
@@ -299,7 +293,17 @@ button:hover{
     padding: 10px;
 }
 .foto-perfil{
+    filter: brightness(0) invert(1);
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+#horario{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    background: #1e90ff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
