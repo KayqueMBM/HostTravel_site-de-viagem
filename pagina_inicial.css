@@ -140,6 +140,7 @@ button:hover{
     border-top: 5px solid transparent;
     border-radius: 50%;
     animation: spin 1s linear infinite;
+    margin-left: 20px;
 }
 @keyframes spin{
     to{
@@ -306,4 +307,38 @@ button:hover{
     background: #1e90ff;
     padding: 5px 10px;
     border-radius: 5px;
+}
+.promo{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #0073e6;
+}
+.promo h3{
+    font-size: 26px;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+.promo p{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.promo button{
+    background-color: #0073e6;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.promo button:hover{
+    background-color: #005bb5;
 }
