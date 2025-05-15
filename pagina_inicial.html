@@ -6,6 +6,7 @@
     <title>Página inicial</title>
     <link rel="stylesheet" href="pagina_inicial.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="pagina_inicial.js" defer></script>
 </head>
 <body>
@@ -27,9 +28,6 @@
                 </ul>
             </nav>
         </div>
-
-        <span id="horario"></span>
-
         <div class="botoes-autenticacao">
             <button id="login">
                 <img src="imagens/perfil.png" alt="Foto de perfil" class="foto-perfil">
@@ -56,11 +54,11 @@
                     <h3>O que nossos viajantes dizem</h3>
                     <div class="depoimento">
                         <p>"HostTravel tornou meu planejamento de viagem muito mais fácil! Recomendo.</p>
-                        <span>- Ana Julia</span>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> - Ana Julia</span>
                     </div>
                     <div class="depoimento">
                         <p>"Com os guias personalizados, descobri lugares incríveis que nem sabia que existiam!"</p>
-                        <span>- João Santos</span>
+                        <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> - João Santos</span>
                     </div>
                 </div>
                 <div class="promo">
@@ -72,15 +70,27 @@
             <div class="lado-direito">
                 <div class="destinos">
                     <h3>Destinos Populares</h3>
-                    <div class="destino">
-                        <img src="imagens/roma.jpg" alt="Roma">
-                        <h4>Roma</h4>
-                        <p>História e gastronomia imperdíveis!</p>
-                    </div>
-                    <div class="destino">
-                        <img src="imagens/maldivas.jpg" alt="Maldivas">
-                        <h4>Maldivas</h4>
-                        <p>Paraíso tropical com praias paradisíacas.</p>
+                    <div class="destino-container">
+                        <div class="destino">
+                            <img src="imagens/roma.jpg" alt="Roma">
+                            <h4>Roma</h4>
+                            <p>História e gastronomia imperdíveis!</p>
+                        </div>
+                        <div class="destino">
+                            <img src="imagens/lisboa.jpg" alt="Lisboa">
+                            <h4>Lisboa</h4>
+                            <p>Cultura vibrante e arquitetura encantadora.</p>
+                        </div>
+                        <div class="destino">
+                            <img src="imagens/maldivas.jpg" alt="Maldivas">
+                            <h4>Maldivas</h4>
+                            <p>Paraíso tropical com praias paradisíacas.</p>
+                        </div>
+                        <div class="destino">
+                            <img src="imagens/buenos aires.jpg" alt="Maldivas">
+                            <h4>Buenos Aires</h4>
+                            <p>Tango apaixonante e uma cena cultural incrível.</p>
+                        </div>
                     </div>
                 </div>
             </div>
