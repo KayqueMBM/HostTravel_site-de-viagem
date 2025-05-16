@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - HostTravel</title>
+    <link rel="stylesheet" href="pagina_login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="processar_login.php" method="post">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <button class="voltar" onclick="window.location.href='pagina_inicial.html'">Voltar para a Página Inicial</button>
+        <div class="link-container">
+            <a href="pagina_cadastro.html">Cadastre-se</a>
+        </div>
+    </div>
+</body>
+</html>
